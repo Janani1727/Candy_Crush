@@ -150,6 +150,7 @@ const App = () => {
     }
 
 
+    
     const createBoard = () => {
         const randomColorArrangement = []
         for (let i = 0; i < width * width; i++) {
@@ -158,6 +159,7 @@ const App = () => {
         }
         setCurrentColorArrangement(randomColorArrangement)
     }
+
 
     useEffect(() => {
         createBoard()
@@ -174,6 +176,7 @@ const App = () => {
         }, 100)
         return () => clearInterval(timer)
     }, [checkForColumnOfFour, checkForRowOfFour, checkForColumnOfThree, checkForRowOfThree, moveIntoSquareBelow, currentColorArrangement])
+
 
 
     return (
