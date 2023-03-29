@@ -3,15 +3,19 @@
 .app{
   display: flex;
   padding: 60px;
-  margin-left: 430px;
+  /* margin-left: 430px; */
+
  
 }
 
 .game{
-  width:560px;
-  height: 560px;
+  width:600px;
+  height: 600px;
   display: flex;
   flex-wrap: wrap;
+  /* border: 1px solid red; */
+  margin: auto;
+  
 }
 
 
@@ -21,11 +25,9 @@
   height: 70px;
 }
 
-
-
-.toggle h1{
+ .toggle h1{
  font-size: 40px;
- margin-left: 650px;
+  margin-left: 650px; 
   
 }
 
@@ -33,4 +35,5 @@
   margin-left: 120px;
   margin-top: 20px;
    
- }
+ }  
+ 
